@@ -7,10 +7,11 @@
     "yarn add express cors dotenv",
     "yarn add -D nodemon",
     "git init",
+    "mkdir src",
     "file:/src/generators/dotenv.js",
     "file:/src/generators/gitignore.js",
     "file:/src/generators/app.js",
-    "npx npm-add-script -k dev -v \"nodemon app.js\"",
-    "npx npm-add-script -k start -v \"node app.js\""
+    "npx npm-add-script -k dev -v \"nodemon src/app.js\"",
+    "npx npm-add-script -k start -v \"node src/app.js\""
   ]
 }

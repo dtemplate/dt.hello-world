@@ -6,5 +6,5 @@ export const main = async ({ rootDirectory, templateDirectory }) => {
     "utf-8"
   );
 
-  fs.writeFileSync(`${rootDirectory}/app.js`, appFile);
+  fs.writeFileSync(`${rootDirectory}/src/app.js`, appFile);
 };
