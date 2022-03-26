@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Template for the dev-template that generates a node api that returns \"hello world\"",
+  "run": [
+    "yarn init -y",
+    "yarn add express cors dotenv nodemon",
+    "file:/src/generators/dotenv.js",
+    "file:/src/generators/gitignore.js",
+    "file:/src/generators/app.js",
+    "npx npm-add-script -k dev -v \"nodemon app.js\"",
+    "npx npm-add-script -k start -v \"node app.js\""
+  ]
+}

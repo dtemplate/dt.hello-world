@@ -1,0 +1,14 @@
+{
+  "name": "dt.hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Theryston/dt.hello-world.git",
+  "author": "Theryston Santos <funktodo2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch \"src/\" --exec \"dt --run .\""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
