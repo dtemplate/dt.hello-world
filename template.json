@@ -6,6 +6,7 @@
     "yarn init -y",
     "yarn add express cors dotenv",
     "yarn add -D nodemon",
+    "git init",
     "file:/src/generators/dotenv.js",
     "file:/src/generators/gitignore.js",
     "file:/src/generators/app.js",
